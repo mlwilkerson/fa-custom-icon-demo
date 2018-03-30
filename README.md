@@ -1,5 +1,13 @@
 # Font Awesome Custom Icon Demo
 
+This demo using Node.js and Rollup for a build pipeline to create a bundle that is loading in the browser.
+
+If you are using Font Awesome by loading one of our pre-built CDN bundles via `<script>`, like this...
+```html
+<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+```
+...then here's a [CodePen](https://codepen.io/fontawesome/pen/YaaYqP) demo that you might find more helpful.
+
 ## To See This Demo
 1. `yarn install`
 2. `./node_modules/.bin/rollup -c` to build `bundle.js` from `index.js`
